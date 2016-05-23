@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+   	
+	RewriteEngine On
+
+	RewriteRule ^404?$ 404.html
+
+	RewriteRule ^([a-z0-9-]+)?$ index.php?d=$1 [NC]
+
+	ErrorDocument 404 http://localhost/shorter.d3sconn3ct.net/404
+
+</IfModule>
