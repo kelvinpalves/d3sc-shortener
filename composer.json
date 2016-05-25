@@ -1,0 +1,14 @@
+{
+    "name": "vendor/d3sc-shortener",
+    "description": "Basic Shortener URL's",
+    "authors": [
+        {
+            "name": "kelvin",
+            "email": "kelvinpalves@gmail.com"
+        }
+    ],
+    "require": {
+        "smarty/smarty": "dev-master"
+    }
+}
+
